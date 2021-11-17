@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     ContactoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
